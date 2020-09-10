@@ -1,0 +1,62 @@
+body {
+    background-color: #3aafa9;
+}
+
+.Open {
+    float: none;
+    font-size: 25px;
+    width: 80%;
+    font-family: Monoton, cursive;
+    color: #17252a;
+}
+
+@font-face{
+    font-family: Monoton;
+    src: url("monoton.ttf");
+}
+
+@font-face {
+    font-family: "Changa", sans-serif;
+    src: url("changa.ttf");
+}
+
+.Survey {
+    font-family: "Changa", sans-serif;
+    float: none;
+    background-color: #def2f1;
+    font-size: 23px;
+    width: 800px;
+    padding-left: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+.Survey2 {
+    float: none;
+    font-family: "Changa", sans-serif;
+    background-color: #def2f1;
+    font-size: 23px;
+    width: 800px;
+    padding-left: 4%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 25%;
+}
+
+.Survey3 {
+    font-family: "Changa", sans-serif;
+    margin-top: 10px;
+    font-size: 23px;
+    margin-bottom: 35px;
+    background-color: #def2f1;
+    padding-left: 4%;
+    padding-top: 10px;
+    width: 800px;
+    padding-bottom: 20px;
+    margin-left: 25%;
+}

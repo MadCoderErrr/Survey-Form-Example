@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <link href="https://fonts.googleapis.com/css2?family=Monoton&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="surveystyle.css">
+    <link href="https://fonts.googleapis.com/css2?family=Changa&display=swap" rel="stylesheet">
+    <body>
+    <div class="Open">
+        <h1>Simple SurveyForProgrammers</h1>
+    </div>
+    <div class="Survey">
+        <h2>Basic Information:</h2>
+        <form action="surveyindex.html" name="Q1" method="POST">
+            First Name: <input type="text" name="fname"><br><br>
+            Last Name: <input type="text" name="lname"><br><br>
+            Gender:<br>
+            <input type="radio" name="gender" value="Female">Female<br>
+            <input type="radio" name="gender" value="Male">Male<br>
+            <input type="radio" name="gender" value="Other">Other<br><br>
+            Age: <input type="number" min="1" max="120" required><br><br>
+            I can say that I am an/a :<select name="level">
+                <option value="Beginner">Beginner</option>
+                <option value="Intermediate">Intermediate</option>
+                <option value="Expert">Expert</option>
+                <option value="IDK">(I am unsure)...</option>
+                </select><br><br>
+            My first programming language is: <select name="Language">
+                <option value="Python">Python</option>
+                <option value="JavaScript">JavaScript</option>
+                <option value="Java">Java</option>
+                <option value="C">C</option>
+                <option value="C#">C#</option>
+                <option value="C++">C++</option>
+                <option value="PHP">PHP</option>
+                <option value="Ruby">Ruby</option>
+                <option value="MATLAB">MATLAB</option>
+                <option value="SQL">SQL</option>
+                <option value="other">other</option>
+                <option value="HTML">...wait, HTML isn't a language?!</option>
+            </select><br><br>
+            Next year, I plan to learn: <select name="Plan" required>
+                <option value="A new programming language">A New Programming Language</option>
+                <option value="Machine Learning">Machine Learning</option>
+                <option value="Computer Science">Computer Science</option>
+                <option value="How to get a job">How to get a job</option>
+                <option value="other">other</option>
+                <option value="Statitics, collecting data, etc">Statitics, collecting data, etc</option>
+            </select><br><br>
+        </form>
+    </div>
+    <div class="Survey2">
+        <h2>Other Information:</h2>
+        <form>
+            I learnt how to code from : <select name="Learnt">
+                <option value="1">YouTube</option>
+                <option value="2">Codecademy</option>
+                <option value="3">Udemy</option>
+                <option value="4">A Bootcamp</option>
+                <option value="5">A private tutor</option>
+                <option value="6">other</option>
+            </select><br><br>
+            When I have a problem, I mostly go to: <select name="Source">
+                <option value="1">Stack Overflow</option>
+                <option value="2">YouTube</option>
+                <option value="3">Github</option>
+                <option value="4">read the documentation</option>
+                <option value="5">...Nah, I'm perfect</option>
+                <option value="6">other</option>
+        </select>
+        </form>
+    </div>
+    <div class="Survey3">
+        <h3>Thank You For Taking The Survey!</h3>
+        <form>
+            <input type="submit">
+        </form>
+    </div>
+    </body>
+</html>
